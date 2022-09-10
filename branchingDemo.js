@@ -13,10 +13,10 @@ const d = new Date();
 // getFullYear() returns the year as a 4 digit number
 
 let month = months[d.getMonth()];
-let day = d.getDate()
-let year = d.getFullYear()
+let day = d.getDate();
+let year = d.getFullYear();
 
-let currentDate = "The current date is: " + month + " " + day + ", " + year
+let currentDate = "The current date is: " + month + " " + day + ", " + year;
 
 console.log("The date is: " + d);
-console.log(currentDate)
+console.log(currentDate);
