@@ -1,0 +1,40 @@
+/* ---------------------------------------------------- Class CSS ------------------------------------------------------------------ */
+.nb-bg-color {
+    background-color: #1292af;
+}
+
+body {
+    background-color: #25282d;
+}
+/* ---------------------------------------------------- ID CSS ------------------------------------------------------------------ */
+
+a#nbMenuItem {
+    font-size: 25px;
+    padding: 0 20;
+}
+
+
+/* ---------------------------------------------------- Underline Animation CSS ------------------------------------------------------------------ */
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    /*color: #0087ca;*/
+  }
+  
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #eae6e6;
+    /*transform-origin: bottom right;*/
+    transition: transform 0.15s ease-in;
+}
+  
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    /*transform-origin: bottom left;*/
+}
