@@ -1,16 +1,57 @@
 /* ---------------------------------------------------- Class CSS ------------------------------------------------------------------ */
 .nb-bg-color {
-    background-color: #1292af;
+    background-color: #3E505B;
 }
 
 body {
     background-color: #25282d;
+}
+
+.overview {
+    background-color: #66b8b0;
+}
+
+.showcase {
+    background-color: #4381C1;
+}
+
+.author {
+    background-color: #8eb7e0;
+    padding-bottom: 20px;
+}
+
+.about-author {
+    padding-top: 20px;
+}
+
+.card-img-top {
+    padding-top: 10px;
+}
+
+.card {
+    background-color: rgb(210, 238, 244);
 }
 /* ---------------------------------------------------- ID CSS ------------------------------------------------------------------ */
 
 a#nbMenuItem {
     font-size: 25px;
     padding: 0 20;
+}
+
+#ovPadLeft {
+    padding-left: 20px;
+}
+
+p {
+    font-size: 16px !important;
+}
+
+.footer {
+    background-color: #3E505B
+}
+
+.icon-white {
+    color: white;
 }
 
 /* ---------------------------------------------------- Underline Animation CSS ------------------------------------------------------------------ */

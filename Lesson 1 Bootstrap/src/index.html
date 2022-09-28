@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Research</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+              rel="stylesheet"
+              integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+              crossorigin="anonymous">
+        <link rel="stylesheet"
+              href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <header>
+            <nav class="navbar navbar-dark nb-bg-color navbar-expand-md">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html"><img class="img-fluid d-inline-block align-text-top w-50" src="/adullaSE2223/Lesson 1 Bootstrap/img/icon.png" alt="leaf"></a>
+            
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a href="./authors.html" class="nav-link hover-underline-animation" id="nBMenuItem">Authors</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./procedure.html" class="nav-link hover-underline-animation" id="nBMenuItem">Procedure</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./results.html" class="nav-link hover-underline-animation" id="nBMenuItem">Results</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    
+        <!-- Showcase -->
+        <section class="showcase text-light p-2 text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 p-0 d-flex align-items-center">
+                        <img class="img-fluid" src="/adullaSE2223/Lesson 1 Bootstrap/img/disease.jpg" alt="diseased leaf">
+                    </div>
+                    <div class="col-sm-9 p-0 d-flex align-items-center">
+                        <div class="container">
+                            <h1 class="display-3">Using AI to Classify Diseases in Plants</h1>
+                            <h2>Building a website with Bootstrap</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Overview-->
+        <section class="overview text-dark p-2 text-left">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 p-3">
+                        <img class="img-fluid" src="" alt="">
+                    </div>
+                    <div class="col-sm-8 p-3">
+                        <h2 id="ovPadLeft">Background</h2>
+                        <p class="lead overview-font" id="ovPadLeft">One major problem that farmers face is crop disease. Lacking a way to quickly diagnose diseases, many farmers suffer from reduced crop yields, which can impact the food supply chain. Machine learning algorithms, such as Convolutional Neural Networks, provide one potential solution to this issue. The engineering goal of this project was to create an artificial intelligence model using a Convolutional Neural Network that, when given an image of a plant leaf, can quickly determine what type of disease the plant has with greater than 80% accuracy. The constraints were that the model would be trained in under five hours and take less than ten seconds to return its prediction once an image is inputted to it. The model was tested to see if any overfitting or underfitting occurred. The model consisted of one convolutional layer, one max pooling layer, and six fully-connected layers, and 30 epochs were used during the training. After training the model, 12 images from each of the 33 disease groups were tested against it to gather testing data. An inferential statistics test comparing the loss of the training and validation datasets per epoch of model training showed that no underfitting or overfitting occurred. The accuracy of the model was evaluated in two ways. First, the model was evaluated against the evaluation data which had 91.28% accuracy. Second, the testing data was analyzed and the accuracy was determined to be 90.40%. Thus, the created model successfully reached the engineering goal of 80% accuracy.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8 p-3">
+                        <h2 id="ovPadRight">Rationale</h2>
+                        <p class="lead overview-font" id="ovPadRight">One large problem that farmers face affecting their crop production is plant disease. Any diseased plants can not be sent to retailers and must be thrown out, causing loss to the farmers. In fact, in the United States, plant diseases cause about $20 billion dollars in crop losses each year. They also affect over 40% of the six most important crops.</p>
+                        <p class="lead overview-font" id="ovPadRight">Current common methods of plant disease detection are largely based on laboratory procedures. These procedures often take a long time to complete, and are not efficient enough for farmers, who often need to make decisions about their crops quickly. Lacking a quick way to diagnose plant diseases, farmers may incur heavy crop losses, which can also affect consumers, who might not have enough food to purchase.</p>
+                    </div>
+                    <div class="col-sm-4 p-3">
+                        <img class="img-fluid" src="" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 p-3">
+                        <img class="img-fluid" src="" alt="">
+                    </div>
+                    <div class="col-sm-8 p-3">
+                        <h2 id="ovPadLeft">Research Practicum</h2>
+                        <p class="lead overview-font" id="ovPadLeft"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="p-5 footer text-light text-center position-relative">
+            <div class="container-fluid">
+                <p class="lead">Copyright &copy; SE 2022 Research Website</p>
+                <a href="#" class="position-fixed bottom-0 end-0 p-5">
+                    <i class="bi bi-arrow-up-circle h2 icon-white"></i>
+                </a>
+            </div>
+        </footer>
+
+        <!-- Accordion
+        <div class="container-fluid">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Ayush Bobra
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                        <strong>Hello Ayush Bobra.</strong> Ha!
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Anish Pallati
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Hello Anish Pallati.</strong> Ha!
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Varun Gabbita
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Hello Varun Gabbita.</strong> Ha!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+                crossorigin="anonymous">
+        </script>
+    </body>
+
+</html>
