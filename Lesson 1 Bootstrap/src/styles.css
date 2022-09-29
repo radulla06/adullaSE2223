@@ -19,7 +19,16 @@ body {
     padding-bottom: 20px;
 }
 
+.procedure {
+    padding-bottom: 20px;
+}
+
 .about-author {
+    padding-top: 20px;
+}
+
+.procedures {
+    background-color:#adc3d8;
     padding-top: 20px;
 }
 
