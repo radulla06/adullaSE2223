@@ -12,7 +12,8 @@ body {
 }
 
 .showcase {
-    background-color: #4381C1;}
+    background-color: #4381C1;
+}
 
 .author {
     background-color: #8eb7e0;
@@ -24,7 +25,7 @@ body {
 }
 
 .procedures {
-    background-color:#adc3d8;
+    background-color: #adc3d8;
     padding-top: 20px;
 }
 
@@ -64,8 +65,8 @@ p {
     display: inline-block;
     position: relative;
     /*color: #0087ca;*/
-  }
-  
+}
+
 .hover-underline-animation:after {
     content: '';
     position: absolute;
@@ -78,7 +79,7 @@ p {
     /*transform-origin: bottom right;*/
     transition: transform 0.15s ease-in;
 }
-  
+
 .hover-underline-animation:hover:after {
     transform: scaleX(1);
     /*transform-origin: bottom left;*/
