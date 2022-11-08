@@ -20,7 +20,7 @@ body {
     padding-bottom: 20px;
 }
 
-.about-author {
+.about-author, .results-title {
     padding-top: 20px;
 }
 
@@ -43,6 +43,14 @@ body {
 
 .icon-white {
     color: white;
+}
+
+.results-background {
+    background-color: rgb(172, 218, 233);
+}
+
+.footer {
+    margin-top: 20px;
 }
 
 /* ---------------------------------------------------- ID CSS ------------------------------------------------------------------ */
