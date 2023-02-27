@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Registration</title>
+
+    <!-- Bootstrap 5 CSS, Icons and custom CSS file links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/firebase.css">
+
+    <!-- Bootstrap 5, crypto-js and custom JS script tags-->
+    <!-- Include 'defer' keyword for each to improve loading-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
+            defer integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" 
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js" 
+            defer integrity="sha512-E8QSvWZ0eCLGk4km3hxSsNmGWbLtSCSUcewDQPQWZF6pEU8GlT8a5fF32wOl1i8ftdMhssTrF/OhyGWwonTcXA==" 
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="js/register.js" defer></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-dark nb-bg-color navbar-expand-md">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img class="img-fluid d-inline-block align-text-top w-50"
+                        src="img/icon.png" alt="leaf"></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link hover-underline-animation"
+                                id="nBMenuItem">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="authors.html" class="nav-link hover-underline-animation"
+                                id="nBMenuItem">Authors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="procedure.html" class="nav-link hover-underline-animation"
+                                id="nBMenuItem">Procedure</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="results.html" class="nav-link hover-underline-animation"
+                                id="nBMenuItem">Results</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="register.html" class="nav-link hover-underline-animation btn-primary rounded-3"
+                                id="nBMenuItem">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="signin.html" class="nav-link hover-underline-animation btn-success rounded-3"
+                                id="nBMenuItem">Sign In</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <br><h2 class="text-center register-title">Account Registration</h2><br>
+    </div>
+
+    <!--Sign Up -->
+    <div class="signUpForm mb-5">     
+        <form>
+            <input type="text" placeholder="First Name" id="firstName" class="form-control mb-3">
+            <input type="text" placeholder="Last Name" id="lastName" class="form-control mb-3">
+            <input type="email" placeholder="Email" id="userEmail" class="form-control mb-3">
+            <input type="password" placeholder="Password" id="userPass" class="form-control mb-3">
+            <button type = "button" id="submitData" name="submitData" class="btn btn-primary mb-3 w-100">Register</button>
+            <a href="signin.html" class="badge bg-secondary py-1 w-100">Already have an account?</a>
+        </form>
+    </div>
+
+</body>
+</html>

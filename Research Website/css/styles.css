@@ -1,0 +1,94 @@
+/* ---------------------------------------------------- Class CSS ------------------------------------------------------------------ */
+.nb-bg-color {
+    background-color: #3E505B;
+}
+
+body {
+    background-color: #25282d;
+}
+
+.overview {
+    background-color: #66b8b0;
+}
+
+.showcase {
+    background-color: #4381C1;
+}
+
+.author {
+    background-color: #8eb7e0;
+    padding-bottom: 20px;
+}
+
+.about-author, .results-title {
+    padding-top: 20px;
+}
+
+.procedures {
+    background-color: #adc3d8;
+    padding-top: 20px;
+}
+
+.card-img-top {
+    padding-top: 10px;
+}
+
+.card {
+    background-color: rgb(210, 238, 244);
+}
+
+.footer {
+    background-color: #3E505B
+}
+
+.icon-white {
+    color: white;
+}
+
+.results-background {
+    background-color: rgb(172, 218, 233);
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+/* ---------------------------------------------------- ID CSS ------------------------------------------------------------------ */
+
+a#nbMenuItem {
+    font-size: 25px;
+    padding: 0 20;
+}
+
+#ovPadLeft {
+    padding-left: 20px;
+}
+
+p {
+    font-size: 16px !important;
+}
+
+/* ---------------------------------------------------- Underline Animation CSS ------------------------------------------------------------------ */
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    /*color: #0087ca;*/
+}
+
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #eae6e6;
+    /*transform-origin: bottom right;*/
+    transition: transform 0.15s ease-in;
+}
+
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    /*transform-origin: bottom left;*/
+}
